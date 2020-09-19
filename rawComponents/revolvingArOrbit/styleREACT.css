@@ -11,13 +11,13 @@
     font-size: 19px;
 }
 
-. {
+.CSS {
   offset-path: path('M 398 88 A 245 80 120 1 1 398 87 Z');
   offset-rotate: 0deg;
-  animation: revPYTHON 12s linear infinite reverse;
+  animation: revCSS 12s linear infinite reverse;
     transform: translateY(-5%) translateX(-5%);
 }
-@keyframes revPYTHON {
+@keyframes revCSS {
     0%{opacity: 1;
         offset-distance: 0%;
     }
@@ -127,14 +127,14 @@
         offset-distance: 148%;
     }
 }
-.ANGULAR {
+.LARAVEL {
     offset-path: path('M 25,274 A245,60 0 1,0 25, 273 Z');
     offset-rotate: 0deg;
-    animation: revANGULAR 12s linear infinite;
+    animation: revLV 12s linear infinite;
     transform: translateY(-5%) translateX(-5%);
   }
 
-  @keyframes revANGULAR{
+  @keyframes revLV{
     0%{opacity: 0;
         offset-distance: -5%;
     }
@@ -157,13 +157,13 @@
     }
 }
 
-.SCHEME {
+.BOOTSTRAP {
     offset-path: path('M 210 88 A 245 60 60 1 1 208 86 Z');
     offset-rotate: 0deg;
-    animation: revSCHEME 12s linear infinite;
+    animation: revBS 12s linear infinite;
       transform: translateY(-5%) translateX(-5%);
   }
-  @keyframes revSCHEME {
+  @keyframes revBS {
       0%{opacity: 1;
           offset-distance: 0%;
       }
