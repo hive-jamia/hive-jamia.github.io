@@ -10,8 +10,8 @@ const AboutUs = () => {
   return (
     <div>
       <div className="clearfix1"></div>
-      <div className="container-fluid">
-        <table align="center" border="5px" width="80%">
+      <div className="container-fluid" id="about-us">
+        <table align="center" width="90%">
           <tr>
             <td>
               <table

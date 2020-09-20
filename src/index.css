@@ -1,3 +1,30 @@
+/*******************Navbar******************/
+
+.navbar {
+  background-color: transparent !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: orange !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid orange;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*******************Navbar******************/
+
 /*******************Banner******************/
 
 #BannerPicture {
@@ -16,7 +43,7 @@
 .welcomeText,
 .welcomeText1 {
   position: absolute;
-  top: 1.1em;
+  top: 1.5em;
   left: 5.5vw;
   font-family: Consolas;
   font-size: 4.1vw;
@@ -25,7 +52,7 @@
 }
 
 .welcomeText1 {
-  top: 2.3em;
+  top: 3em;
 }
 
 .row {
@@ -65,7 +92,7 @@
 /*******************About Hive******************/
 
 .bgAboutImage {
-  background-image: url("/image/AboutImage.png");
+  background-image: url(image/AboutImage.png);
   background-position: center;
   background-size: 80% 80%;
   background-repeat: no-repeat;
@@ -314,3 +341,38 @@ img {
 }
 
 /*******************Projects Events******************/
+
+/*******************Footer******************/
+
+#FooterBanner {
+  height: 40vw;
+  width: 100vw;
+  z-index: 1;
+}
+.footerText,
+.footerText1 {
+  position: relative;
+  bottom: 2.5em;
+  left: 5.5vw;
+  font-family: Consolas;
+  font-size: 4.1vw;
+  color: #ffffff;
+  font-weight: bold;
+}
+.footerText1 {
+  bottom: 2.5em;
+}
+#jamia-logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 1200px;
+  bottom: 230px;
+  z-index: 2;
+}
+.footer {
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+/*******************Footer******************/
