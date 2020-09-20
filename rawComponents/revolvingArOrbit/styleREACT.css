@@ -12,66 +12,85 @@
 }
 
 .CSS {
+    motion-path: path('M 398 88 A 245 80 120 1 1 398 87 Z');
   offset-path: path('M 398 88 A 245 80 120 1 1 398 87 Z');
   offset-rotate: 0deg;
+  motion-rotation: 0deg;
   animation: revCSS 12s linear infinite reverse;
     transform: translateY(-5%) translateX(-5%);
 }
 @keyframes revCSS {
     0%{opacity: 1;
+        motion-offset: 0%;
         offset-distance: 0%;
+        motion:distance 0%;
     }
     48% { 
+        motion-offset: 48%;
         offset-distance: 48%;
         opacity: 1;
+        motion: 48% distance;
       }
       50%{
           opacity: 0;
+          motion-offset: 50%;
           offset-distance: 50%;
       }
     90%{
         opacity: 0;
         offset-distance: 87%;
+        motion-offset: 87%;
     }
       100%{
         opacity: 1;
         offset-distance: 100%;
+        motion-offset: 100%;
     }
 }
 
 .JAVASCRIPT {
+    motion-path: path('M 25,274 A245,60 0 1,0 25, 273 Z');
     offset-path: path('M 25,274 A245,60 0 1,0 25, 273 Z');
     offset-rotate: 0deg;
+    motion-rotation: 0deg;
     animation: revJAVASCRIPT 12s linear infinite;
     transform: translateY(-5%) translateX(-5%);
   }
   @keyframes revJAVASCRIPT {
     0%{opacity: 1;
         offset-distance: 50%;
+        motion-offset: 50%;
     }
     3%{
         opacity: 0;
+        motion-offset: 55%;
         offset-distance: 55%;
     }
     48% { 
         offset-distance: 86%;
+        motion-offset: 86%;
       }
       56%{
           opacity: 0;
           offset-distance: 93%;
+          motion-offset: 93%;
       }
     60%{
       opacity: 1;
+      motion-offset: 100%;
       offset-distance: 100%;
       }
       100%{
         opacity: 1;
+        motion-offset: 150%;
         offset-distance: 150%;
     }
 } 
 .HTML {
+    motion-path: path('M 398 88 A 245 80 120 1 1 398 87 Z');
     offset-path: path('M 398 88 A 245 80 120 1 1 398 87 Z');
     offset-rotate: 0deg;
+    motion-rotation: 0deg;
     animation: revHTML 12s linear infinite reverse;
     transform: translateY(-5%) translateX(-5%);
   }
@@ -79,108 +98,135 @@
 @keyframes revHTML{
     0%{opacity: 1;
         offset-distance: 48%;
+        motion-offset: 48%;
     }
     2%{
         opacity: 0;
+        motion-offset: 50%;
         offset-distance: 50%; 
     }
     40%{
         opacity: 0;
+        motion-offset: 89%;
         offset-distance: 89%;
     }
       50%{
         opacity: 1;
+        motion-offset: 100%;
         offset-distance: 100%;
     }
     100%{
         opacity: 1;
+        motion-offset: 148%;
         offset-distance: 148%;
     }
 }
 .REACT {
+    motion-path: path('M 210 88 A 245 60 60 1 1 208 86 Z');
     offset-path: path('M 210 88 A 245 60 60 1 1 208 86 Z');
     offset-rotate: 0deg;
+    motion-rotation: 0deg;
     animation: revREACT 12s  linear infinite;
       transform: translateY(-5%) translateX(-5%);
   }
   @keyframes revREACT{
     0%{opacity: 0;
         offset-distance: 48%;
+        motion-offset: 48%;
     }
     36%{
         offset-distance: 85%;
+        motion-offset: 85%;
     }
     43%{
         opacity: 0;
+        motion-offset:  93%;
         offset-distance: 93%;
     }
       50%{
           opacity: 1;
         offset-distance: 100%;
+        motion-offset: 100%;
     }
     95%{
         opacity: 1;
         offset-distance: 143%;
+        motion-offset: 143%;
     }
     100%{
         opacity: 0;
         offset-distance: 148%;
+        motion-offset: 148%;
     }
 }
 .LARAVEL {
+    motion-path: path('M 25,274 A245,60 0 1,0 25, 273 Z');
     offset-path: path('M 25,274 A245,60 0 1,0 25, 273 Z');
     offset-rotate: 0deg;
+    motion-rotation: 0deg;
     animation: revLV 12s linear infinite;
     transform: translateY(-5%) translateX(-5%);
   }
 
   @keyframes revLV{
     0%{opacity: 0;
+        motion-offset:-5% ;
         offset-distance: -5%;
     }
     5%{
         opacity: 1;
+        motion-offset: 0%;
         offset-distance: 0%;
     }
     
     50%{
         opacity: 1;
+        motion-offset: 50%;
         offset-distance: 50%;
     }
       55%{
         opacity: 0;
+        motion-offset: 55%;
         offset-distance: 55%;
     }
     100%{
         opacity: 0;
+        motion-offset: 100%;
         offset-distance: 100%;
     }
 }
 
 .BOOTSTRAP {
+    motion-path: path('M 210 88 A 245 60 60 1 1 208 86 Z');
     offset-path: path('M 210 88 A 245 60 60 1 1 208 86 Z');
     offset-rotate: 0deg;
+    motion-rotation: 0deg;
     animation: revBS 12s linear infinite;
       transform: translateY(-5%) translateX(-5%);
   }
   @keyframes revBS {
       0%{opacity: 1;
+        motion-offset: 0%;
           offset-distance: 0%;
       }
       45% { 
+          motion-offset: 45%;
           offset-distance: 45%;
           opacity: 1;
         }
         46%{
             opacity: 0;
+            motion-offset: 46%;
             offset-distance: 46%;
         }
       90%{
+          motion-offset: 87%;
           opacity: 0;
           offset-distance: 87%;
       }
         100%{
           opacity: 1;
+          motion-offset: 100%;
           offset-distance: 100%;
       }
   }
