@@ -1,0 +1,22 @@
+.USELESS{
+    position: relative;
+    background-image: url(Banner.png);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 1.5%;
+    padding-right: 0%;
+    padding-left: 8%;
+    overflow-y: hidden;
+    border: 1px solid red;
+}
+
+.LAPTOP{
+    position: relative;
+    background-image: url('laptop.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    padding: 1.75% 9.05% 0% 8.14%;
+    border: 2px solid red;
+}
