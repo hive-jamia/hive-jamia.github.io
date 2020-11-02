@@ -1,0 +1,12 @@
+.FOOTER{
+    position: relative;
+    background-image: url(Footer.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid red;
+}
+.BODY{
+    border: 1px solid red;
+    margin: auto;
+}
