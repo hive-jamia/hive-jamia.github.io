@@ -5,18 +5,103 @@
             Contact Us
         </title>
         <link rel="stylesheet" href="contactUs.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="laptop.css">
+        <script src="jquery.js"></script>
+        <script src="bootstrap.min.js"></script>
     </head>
     <body>
         <div class="CONTAINER">
-            <div class="MAP">
-                <!--Google Maps to be embedded in this div-->
-            </div>
-            <div class="FORMCARD">
+            <div class="MAP">       
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1752.1250035478488!2d77.28008918791511!3d28.5622544659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce38c812c0029%3A0x73f56fbe2fc71d28!2sDepartment%20of%20Computer%20Science!5e0!3m2!1sen!2sin!4v1604419720615!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+         <div class="FORMCARD">
                 <div class="DATA">
+                    <div class="FORM">
+                        <div class="SENDMESSAGE">
+                            Send Message
+                        </div>
+                        <div class="fContent">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="Name" class="form-control" placeholder="First Name" id="fName">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="Name" class="form-control" placeholder="Last Name" id="lName">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="Email" placeholder="Email">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="College" placeholder="College">
+                            </div>
+                              <div class="form-group col-md-6">
+                              <input type="text" class="form-control" id="Course" placeholder="Course">
+                            </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Message" id="Message">
+                              </div>
+                              <button type="submit" class="btn btn-primary">
+                                <img src="sendMessage.svg">
 
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
                 </div>
                 <div class="INFO">
-                    
+                    <div class="CONTACT">Contact Information</div>
+                    <div class="ADDRESS">
+                        <div class="ADDCONT">
+                            <img src="envelope.svg">
+                        </div>
+                        <div class="ADDCONT">
+                            Department Of Computer Science, JMI,<br> Delhi-110025
+                        </div>
+                    </div>
+                    <div class="HIVEEMAIL">
+                        <div class="MAILCONT">
+                        <img src="mapAnchor.svg">
+                        </div>
+                        <div class="MAILCONT">
+                            <button class="hiveMail">
+                            hivejamia@gmail.com
+                        </button>
+                        </div>
+                    </div>
+                    <div class="ICONS">
+                        <div class="IICONS">
+                            <button class="btnIcons">
+                            <img src="GH.svg" height="31px" width="31px">
+                        </button>
+                        </div>
+                        <div class="IICONS">
+                            <button class="btnIcons">
+                            <img src="DC.png" height="31px" width="31px">
+                        </button> 
+                        </div>
+                        <div class="IICONS">
+                            <button class="btnIcons">
+                            <img src="FB.png" height="31px" width="31px">
+                        </button>
+                        </div>
+                        <div class="IICONS">
+                            <button class="btnIcons">
+                                <img src="LI.png" height="31px" width="31px">
+                                
+                            </button>
+                            </div>
+                        <div class="IICONS">
+                            <button class="btnIcons">
+                            <img src="IG.png" height="31px" width="31px">
+                        </button>
+                        </div>
+                    </div>
                 </div>
             </div>
     </body>
