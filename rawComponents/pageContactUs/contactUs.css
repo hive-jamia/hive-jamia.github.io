@@ -1,149 +1,68 @@
-.CONTAINER{
-    border: brown 1px solid;
-    height: 100vh;
-    overflow: hidden;
+.ASSEMBLER{
+    padding-left: 0;
+    padding-right: 0;
+    height: 95vh;
 }
 .MAP{
-    position: relative;
-    transform: translate(0,0);
+    padding-left: 0;
+    padding-right: 0;
     height: 80%;
-    width: 100%;
-    border: 0px solid black;
-    /*background-color: cadetblue;*/
+    width: 100%;    
     margin: auto;
 }
-.FORMCARD{
-    position: relative;
-    height: 61%;
-    width: 62%;
-    border: 1px solid black;
-    background-color: royalblue;
-    margin: auto;
-    transform: translate(0,-68%);
+#CONTACTUSFORM{
+    transform: translate(0%,-70%);
+    width: 70%;
+    box-shadow: 0px 0px 4px 4px  rgba(0, 0, 0, .34);
 }
-.DATA{
-position: relative;
-width: 60%;
-height:  100%;
-background-color: #FFFFFF;
-display: inline;
-float: left;
+.ANCHOR{
+    object-fit: contain;
 }
-.INFO{
-    background-color: #006299;
-position: relative;
-width: 40%;
-height: 100%;
-display: inline;
-float: right;
+.ENVELOPE{
+    object-fit: contain;
 }
-.FORM{
-position: absolute;
-box-sizing: border-box;
-height: 80%;
-width: 80%;
-background-color: #FffFFF;
-display: inline;
-margin-left: 10%;
-margin-top: 10%;
+.sets {
+    align-items: center;
+  }
+
+  input[type=text] {
+      width:80%;
+      border: none;
+      border-bottom: 1px solid black;
+      border-radius: 0px;
+      padding-left: 0;
+  }
+
+  input[type=email] {
+      width:90%;
+      border: none;
+      border-bottom: 1px solid black;
+      border-radius: 0px;
+      padding-left: 0;
+  }
+
+  textarea {
+      border: none;
+      border-bottom: 1px solid black;
+      border-radius: 0px;
+      width: 100%;
+      padding-left: 0;
+      padding-bottom: 3%;
+  }
+
+  .contact {
+      background-color: #006299;
+      color:white;
+  }
+.ICONS.img{
+object-fit: contain;
 }
-button.btn.btn-primary{
-    background-color: transparent;
-    border: none;
-    padding-bottom:auto;
-    transform: scale(70%,70%);
-    margin-top: 0%;
-    translate: -5% -20%;
-}
-.form-control{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border:0;
-    border-bottom: 0px solid black;
-    border-radius: 0%;
-}
-.form-control:focus{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    outline: 0;
-    box-shadow: #ffffff;
-    border-bottom: 0px solid black;
-    border-radius: 0%;
-    border-color: #FFFFFF;
-    color: transparent;
-}
-.form-group{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border:0;
-    font-size: 14px;
-    border-bottom: 0px solid black;
-    border-radius: 0%;
-}
-#College{
-    display: inline;
-}
-.form-group.col-md-6{
-    border: none;
-}
-input{
-    outline: 0;
-    border: 0;
-    border-bottom:2px solid black;
-}
-input:focus{
-    border-color: transparent;
-}
-.SENDMESSAGE{
-    height: 10%;
-    width: auto;
-    font-size: 36px;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.fContent{
-    margin: auto;
-    transform: translate(0,20%);
-}
-.CONTACT{
-    position: relative;
-    height: 25%;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 30px;
-padding-top: 10%;
-text-align: center;
-}
-.ADDRESS{
-    position: relative;
-    height: 25%;
-    padding-left: 3%;
-}
-.HIVEEMAIL{
-    position: relative;
-    height: 25%;
-    padding-left: 3%;
-}
-.ICONS{
-    position: relative;
-    height: 25%;
-    width: 90%;
-    margin: auto;
-}
-.IICONS{
-    width: 20%;
-    display: inline;
-    margin: auto;
-    padding-left: 2%;
-}
-.btnIcons{
-    background-color: transparent;
-    outline: 0;
-    border: transparent;
-}
-.hiveMail{
-    background-color: transparent;
-    outline: 0;
-    border: transparent;
-}
-.ADDCONT,.MAILCONT{
-    display: inline;
+.ICONS.col-md-1{
+ width: 5%;
+ display: inline;
+}     
+.ICGH,.ICLI,.ICFB,.ICDC,.ICIG{
+ width: 18%;
+ object-fit: contain;
+ display: inline;
 }
