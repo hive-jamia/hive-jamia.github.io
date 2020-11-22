@@ -1,0 +1,124 @@
+@media (width:1920px){
+.footer-logo {
+    bottom: -240px;
+}
+.footer-address {
+    bottom: -240px;
+}
+}
+@media (max-width:1024px){
+.team-box:after {
+   display:none!important;
+}
+.social-links {
+    position: relative;
+    bottom: 0px!important;
+}
+.team-img {
+    margin-top: 50px;
+}
+.space-given {
+    padding: 0;
+}
+
+section.our-team .col-md-4:nth-child(5) .team-box {
+    background: #006299!important;
+}
+section.our-team .col-md-4:nth-child(7) .team-box {
+    background: #ff9933!important;
+}
+section.our-team .col-md-4:nth-child(8) .team-box {
+    background: #006299!important;
+}
+section.our-team .col-md-4:nth-child(9) .team-box {
+    background: #ff9933!important;
+}
+section.our-team .col-md-4:nth-child(10) .team-box {
+    background: #006299!important;
+}
+.footer-bg {
+    bottom: -25px;
+}
+.footer-logo {
+    bottom: -160px;
+}
+.footer-address {
+     bottom: -160px;
+}
+ul.nav.navbar-nav li a {
+    font-size: 15px;
+    margin: 0 20px;
+    position: relative;
+}
+}
+@media (max-width:991px){
+	ul.nav.navbar-nav li a {
+    margin: 15px 25px!important;
+}
+	.banner-text {
+    max-width: 90%;
+    padding: 20px;
+}
+html.homepage body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+}
+.navbar-inverse {
+    display: block;
+}
+a.logo img {
+    height: 45px;
+}
+div#myNavbar {
+    float: right;
+    border: none;
+}
+ul.nav.navbar-nav li a {
+    margin: 15px 30px;
+    text-align: center;
+    display: inline-block;
+}
+div#myNavbar .nav>li {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.team-box:after {
+   display:none!important;
+}
+.social-links {
+    position: relative;
+    bottom: 0px!important;
+}
+.team-img {
+    margin-top: 50px;
+}
+footer.footer-sec {
+    position: inherit;
+    background: linear-gradient(135deg, rgba(255,153,51,1) 52%, rgba(0,98,153,1) 52%);
+    min-height: 150px;
+}
+.footer-bg {
+    display: none;
+}
+.footer-logo {
+    bottom: -120px;
+    padding-left: 15px;
+}
+.footer-address {
+    bottom: -120px;
+    padding-right: 30px!important;
+}
+.footer-logo img {
+    width: 70px;
+}
+.animation-area2 {
+    height: auto;
+	padding-top: 40px;
+    margin-bottom: 40px;
+}
+.banner-text h2 {
+    font-size: 30px;
+}
+}

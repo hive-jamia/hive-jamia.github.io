@@ -1,0 +1,122 @@
+/*******************Navbar******************/
+
+.navbar {
+  background-color: transparent !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: orange !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid orange;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*******************Navbar******************/
+
+section.our-team {
+  padding: 50px 0;
+}
+.team-box {
+  position: relative;
+  background: #ff9933;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+.team-box h2 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.team-box h3 {
+  font-size: 18px;
+  min-height: 45px;
+}
+section.our-team h1 {
+  padding: 30px 0;
+  font-weight: 800;
+  color: #707070;
+}
+.team-img img {
+  border-radius: 50%;
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+  height: 225px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  margin-bottom: -100px;
+  z-index: 9;
+  position: relative;
+  background: #fff;
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+section.our-team .col-lg-3:hover .team-img img {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+}
+section.our-team .col-lg-3:nth-child(odd) .team-box {
+  background: #006299;
+}
+section.our-team .col-lg-3:nth-child(odd) .social-links a i {
+  -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 5px 0px #ffffff;
+  box-shadow: 0px 0px 5px 0px #ffffff;
+}
+.social-links {
+  position: relative;
+  bottom: -15px;
+}
+.social-links a {
+  padding: 10px 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.social-links a i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 5px 0px #707070;
+  -moz-box-shadow: 0px 0px 5px 0px #707070;
+  box-shadow: 0px 0px 5px 0px #707070;
+}
+.social-links a i:hover {
+  transform: rotate(360deg);
+  transition: all ease 0.3s;
+}
+.team-box:after {
+  position: absolute;
+  display: block;
+  content: "";
+  z-index: 9;
+  bottom: -65px;
+  transition: all ease 0.3s;
+  border-left: 127px solid transparent;
+  border-right: 127px solid transparent;
+  border-top: 65px solid #ff9933;
+  left: 0;
+}
+section.our-team .col-lg-3:nth-child(odd) .team-box:after {
+  border-top: 65px solid #006299;
+}
+.space-given {
+  padding: 50px;
+  overflow: auto;
+}

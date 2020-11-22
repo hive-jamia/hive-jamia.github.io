@@ -88,9 +88,7 @@ const AboutUs = () => {
               </table>
               <div align="center" className="ABOUTHIVE">
                 <b>
-                  <u>
-                    <h2>About Hive</h2>
-                  </u>
+                  <h1 className="heading">About Hive</h1>
                 </b>
                 <p>
                   All Googlers have access to excellent healthcare choices. In

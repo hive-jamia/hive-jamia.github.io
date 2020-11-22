@@ -1,24 +1,25 @@
 import React from "react";
-import FooterBanner from "../src/image/Footer.png";
 import jamia from "../src/image/JamiaLogo.png";
 
 const Footer = () => {
   return (
     <div>
-      <div className="container-fluid footer">
-        <div className="row">
-          <img src={FooterBanner} alt="" id="BannerFooter" />
-          <div className="footerText">
+      <div className="footer">
+        <div className="footer_content">
+          <div className="footer_section about">
             <h3>Hive Coding Club</h3>
-          </div>
-          <div className="footerText1">
-            <h5>
+            <br />
+            <h4>
               Department of Computer Science
               <br />
+              Jamia Millia Islamia
+              <br />
               New Delhi, India
-            </h5>
+            </h4>
           </div>
-          <img src={jamia} alt="" id="jamia-logo" />
+          <div className="footer_section links">
+            <img src={jamia} alt="jamia logo" className="jamia_logo" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../src/image/hive.png";
+import logo from "../src/image/Hivelogo.png";
 
 const Home = () => {
   return (
@@ -11,7 +11,6 @@ const Home = () => {
             <nav className="navbar navbar-expand-lg navbar-light transparent">
               <NavLink exact className="navbar-brand" to="/">
                 <img src={logo} alt="" className="logo" />
-                |JMI
               </NavLink>
               <button
                 className="navbar-toggler"
@@ -41,7 +40,7 @@ const Home = () => {
                       exact
                       activeClassName="menu_active"
                       className="nav-link"
-                      to="/bookings"
+                      to="/team"
                     >
                       Team
                     </NavLink>
@@ -51,7 +50,7 @@ const Home = () => {
                       exact
                       activeClassName="menu_active"
                       className="nav-link"
-                      to="/bookme"
+                      to="/project"
                     >
                       Project
                     </NavLink>

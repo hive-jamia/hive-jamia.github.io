@@ -1,26 +1,36 @@
+* {
+  font-family: Consolas !important;
+}
 /*******************Navbar******************/
 
 .navbar {
   background-color: transparent !important;
 }
+.navbar-nav {
+  margin-right: 80px !important;
+}
 .navbar a {
-  font-size: 1.3rem;
-  text-transform: capitalize;
+  font-size: 1.7rem !important;
+  text-transform: capitalize !important;
+  text-decoration-line: none;
+  margin-left: 10px;
 }
 .navbar a:hover {
   color: orange !important;
+  text-decoration-line: none;
 }
 .menu_active {
-  font-weight: bold;
-  border-bottom: 1px solid orange;
+  font-weight: bold !important;
+  border-bottom: 1px solid orange !important;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 70px !important;
+  height: 50px !important;
+  margin-left: 80px !important;
 }
 nav {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /*******************Navbar******************/
@@ -28,12 +38,12 @@ nav {
 /*******************Banner******************/
 
 #BannerPicture {
-  height: 40vw;
-  width: 100vw;
+  height: 80vh;
   position: absolute;
+  margin-right: 0 !important;
 }
 
-#DownArrow {
+.USELESS #DownArrow {
   height: 7vw;
   position: relative;
   bottom: -28vw;
@@ -49,10 +59,12 @@ nav {
   font-size: 4.1vw;
   color: #ffffff;
   font-weight: bold;
+  margin-left: 30px;
 }
 
 .welcomeText1 {
   top: 3em;
+  margin-left: 30px;
 }
 
 .row {
@@ -99,11 +111,18 @@ nav {
 }
 .ABOUTHIVE {
   align-content: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Consolas;
   vertical-align: middle;
   font-size: 19px;
 }
-
+.ABOUTHIVE .heading {
+  text-align: center;
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 60;
+  color: #707070;
+  padding-bottom: 30px;
+}
 .CSS {
   offset-path: path("M 398 88 A 245 80 120 1 1 398 87 Z");
   offset-rotate: 0deg;
@@ -288,9 +307,6 @@ nav {
   stroke-width: 3px;
   fill: none;
 }
-.clearfix1 {
-  margin-top: 500px;
-}
 /*******************About Hive******************/
 
 /*******************Projects Events******************/
@@ -344,35 +360,402 @@ img {
 
 /*******************Footer******************/
 
-#FooterBanner {
-  height: 40vw;
-  width: 100vw;
-  z-index: 1;
-}
-.footerText,
-.footerText1 {
-  position: relative;
-  bottom: 2.5em;
-  left: 5.5vw;
-  font-family: Consolas;
-  font-size: 4.1vw;
-  color: #ffffff;
-  font-weight: bold;
-}
-.footerText1 {
-  bottom: 2.5em;
-}
-#jamia-logo {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  left: 1200px;
-  bottom: 230px;
-  z-index: 2;
-}
 .footer {
-  margin-bottom: 0 !important;
-  padding-bottom: 0;
+  height: 450px;
+  padding-top: 4%;
+  background-image: url(image/Footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 109% 100%;
+  position: sticky;
+  bottom: 0%;
+  z-index: 1;
+  overflow-y: hidden;
+  color: white;
+  height: 350px;
+  margin-top: 40px;
+  width: 100%;
+}
+.footer .about {
+  margin-left: 60px;
+}
+.footer .links {
+  margin-right: 40px;
+}
+.footer .footer_content {
+  height: 300px;
+  width: auto;
+  display: flex;
+}
+.about h3 {
+  font-family: Consolas;
+  font-size: 30px !important;
+}
+.about h4 {
+  font-size: 20px !important;
+}
+.footer .footer_content .footer_section {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+}
+.footer .footer_content h3 {
+  color: #ffff;
+  font-size: 30px;
+  font-family: verdana;
+  margin-top: 155px;
+  margin-left: 30px;
+  font-size: 26px;
+  position: absolute;
+}
+
+.footer .footer_content h4 {
+  color: white;
+  font-size: 20;
+  font-family: verdana;
+  margin-top: 185px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 20;
+  font-weight: 100;
+}
+.footer .footer_content img {
+  height: 140px;
+  width: 140px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 150px;
+}
+.footer .footer_content .icons {
+  font-size: 40px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.footer .footer_content .icons a {
+  margin-right: 10px;
+  color: black;
+  transition: 0.3s linear;
+}
+.footer .footer_content .icons a:hover {
+  transition: 0.9s linea;
+  color: white;
+  opacity: 0.4;
+}
+
+.footer .footer_bottom {
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  bottom: 0%;
+  left: 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer .footer_content .about {
+    height: auto;
+    text-align: left;
+  }
+  .footer .footer_content img {
+    margin-right: 50px;
+    margin-top: 180px;
+  }
+  .footer .footer_content h4 {
+    width: 200px;
+  }
+  .footer .footer_content h4 {
+    font-weight: 400;
+  }
+
+  .footer .footer_bottom {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .footer .footer_content h4 {
+    width: 200px;
+    color: white;
+  }
+  .footer .footer_content h3 {
+    color: white;
+  }
+
+  .footer .footer_content .icons {
+    font-size: 35px;
+    width: 300px;
+  }
+  .footer .footer_content img {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    background-size: 109% 100%;
+    overflow-y: hidden;
+  }
+
+  .footer .footer_content .about {
+    height: 100px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .footer .footer_content img {
+    margin-top: 104px;
+    margin-right: 10px;
+  }
+  .footer .footer_content h4 {
+    width: 200px;
+    margin-top: 130px;
+    color: black;
+    font-weight: 300;
+  }
+  .footer .footer_content h3 {
+    margin-top: 90px;
+    color: #006299;
+  }
+  .footer .footer_content .icons {
+    font-size: 35px;
+    text-align: center;
+    width: 180%;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  footer {
+    background-size: 109% 100%;
+    overflow-y: hidden;
+  }
 }
 
 /*******************Footer******************/
+
+/*******************Team******************/
+.top {
+  margin-top: 400px;
+}
+.our-team {
+  padding: 50px 0;
+}
+.team-box {
+  margin-top: 10px;
+  position: relative;
+  background: #ff9933;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.team-box h2 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.team-box h3 {
+  font-size: 18px;
+  min-height: 45px;
+}
+.our-team h1 {
+  padding: 30px 0;
+  font-weight: 800;
+  color: #707070;
+}
+.team-img img {
+  border-radius: 50%;
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+  height: 225px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(125, 121, 121, 0.4);
+  margin-bottom: -100px;
+  z-index: 9;
+  position: relative;
+  background: #fff;
+  transform: scale(1);
+  transition: all ease 0.3s;
+}
+.our-team .col-lg-3:hover .team-img img {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+}
+.our-team .col-lg-3:nth-child(odd) .team-box {
+  background: #006299;
+}
+.our-team .col-lg-3:nth-child(odd) .social-links a i {
+  -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 5px 0px #ffffff;
+  box-shadow: 0px 0px 5px 0px #ffffff;
+}
+.social-links {
+  position: relative;
+  bottom: -15px;
+}
+.social-links a {
+  padding: 10px 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.social-links a .i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 5px 0px #707070;
+  -moz-box-shadow: 0px 0px 5px 0px #707070;
+  box-shadow: 0px 0px 5px 0px #707070;
+}
+.social-links .i:hover {
+  transform: rotate(360deg);
+  transition: all ease 0.3s;
+}
+.team-box:after {
+  position: absolute;
+  display: block;
+  content: "";
+  z-index: 9;
+  bottom: -65px;
+  transition: all ease 0.3s;
+  border-left: 127px solid transparent;
+  border-right: 127px solid transparent;
+  border-top: 65px solid #ff9933;
+  left: 0;
+}
+.our-team .col-lg-3:nth-child(odd) .team-box:after {
+  border-top: 65px solid #006299;
+}
+.space-given {
+  padding: 50px;
+  overflow: auto;
+}
+@media (max-width: 1024px) {
+  .team-box:after {
+    display: none !important;
+  }
+  .social-links {
+    position: relative;
+    bottom: 0px !important;
+  }
+  .team-img {
+    margin-top: 50px;
+  }
+  .space-given {
+    padding: 0;
+  }
+
+  section.our-team .col-md-4:nth-child(5) .team-box {
+    background: #006299 !important;
+  }
+  section.our-team .col-md-4:nth-child(7) .team-box {
+    background: #ff9933 !important;
+  }
+  section.our-team .col-md-4:nth-child(8) .team-box {
+    background: #006299 !important;
+  }
+  section.our-team .col-md-4:nth-child(9) .team-box {
+    background: #ff9933 !important;
+  }
+  section.our-team .col-md-4:nth-child(10) .team-box {
+    background: #006299 !important;
+  }
+}
+@media (max-width: 991px) {
+  .team-box:after {
+    display: none !important;
+  }
+  .social-links {
+    position: relative;
+    bottom: 0px !important;
+  }
+  .team-img {
+    margin-top: 50px;
+  }
+}
+
+/*******************Team******************/
+
+/*******************Project******************/
+
+.USELESS {
+  position: relative;
+  background-image: url(image/Banner.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 1.5%;
+  padding-right: 0%;
+  padding-left: 8%;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.LAPTOP {
+  position: relative;
+  background-image: url(image/laptop.png);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  margin-left: 50%;
+  padding: 1.75% 9.05% 0% 8.14%;
+  width: 50%;
+  height: 100% !important;
+}
+
+.carousel {
+  width: 95%;
+  height: auto !important;
+}
+
+.project button {
+  width: 150px;
+  height: 50;
+  background-color: #004868;
+  color: white;
+  border-radius: 20px;
+  border-color: #004868;
+  font-weight: 500;
+}
+
+.project .heading {
+  text-align: center;
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 38;
+  color: #707070;
+  padding: 2px 0px 3px 0px;
+}
+.project .zoom {
+  transition: transform 0.2s;
+  width: 360px;
+  height: 585;
+  margin: 0 auto;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 80px;
+}
+
+.project .zoom:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.project img {
+  width: 360px;
+  height: 301px;
+}
+.project .caption {
+  text-align: center;
+  font-size: 22;
+  font-family: Segoe UI;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/*******************Project******************/
