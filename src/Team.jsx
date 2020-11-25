@@ -21,7 +21,8 @@ class Team extends Component {
     axios
       .get("/team.json")
       .then((response) => {
-        console.log(response);
+        console.log(response.data[0]);
+
         this.setState({ team: response.data });
       })
       .catch((error) => {
@@ -31,7 +32,7 @@ class Team extends Component {
 
   render() {
     const { team } = this.state;
-
+      console.log(typeof(team))
     return (
       <div>
         <TeamBanner />
@@ -47,11 +48,12 @@ class Team extends Component {
                   <div className="row gy-8">
                     {team.length
                       ? team.map((members) => (
+                          
                           <div className="col-md-3 col-12 mx-auto">
                             <div id={members.id} className="team-img">
                               <img
                                 src={members.Profile}
-                                alt="team1"
+                                alt={members.Name}
                                 className="img-responsive wow zoomIn"
                               />
                             </div>
