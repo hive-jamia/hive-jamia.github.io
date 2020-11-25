@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hive-jamia.github.io/static/css/main.272b7ba5.chunk.css",
+    "main.js": "/hive-jamia.github.io/static/js/main.5620695f.chunk.js",
+    "main.js.map": "/hive-jamia.github.io/static/js/main.5620695f.chunk.js.map",
+    "runtime-main.js": "/hive-jamia.github.io/static/js/runtime-main.57d0b4cf.js",
+    "runtime-main.js.map": "/hive-jamia.github.io/static/js/runtime-main.57d0b4cf.js.map",
+    "static/css/2.ea6b7726.chunk.css": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f8e449a4.chunk.js": "/hive-jamia.github.io/static/js/2.f8e449a4.chunk.js",
+    "static/js/2.f8e449a4.chunk.js.map": "/hive-jamia.github.io/static/js/2.f8e449a4.chunk.js.map",
+    "index.html": "/hive-jamia.github.io/index.html",
+    "precache-manifest.63a84968af716168f30bc292c18062d9.js": "/hive-jamia.github.io/precache-manifest.63a84968af716168f30bc292c18062d9.js",
+    "service-worker.js": "/hive-jamia.github.io/service-worker.js",
+    "static/css/2.ea6b7726.chunk.css.map": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css.map",
+    "static/css/main.272b7ba5.chunk.css.map": "/hive-jamia.github.io/static/css/main.272b7ba5.chunk.css.map",
+    "static/js/2.f8e449a4.chunk.js.LICENSE.txt": "/hive-jamia.github.io/static/js/2.f8e449a4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/hive-jamia.github.io/static/media/laptop.6313d8d0.png",
+    "static/media/CSS.png": "/hive-jamia.github.io/static/media/CSS.75e4d6d5.png",
+    "static/media/DownArrow.svg": "/hive-jamia.github.io/static/media/DownArrow.27f8f7fa.svg",
+    "static/media/HTML.png": "/hive-jamia.github.io/static/media/HTML.31039a53.png",
+    "static/media/Hivelogo.png": "/hive-jamia.github.io/static/media/Hivelogo.f5fa600b.png",
+    "static/media/JamiaLogo.png": "/hive-jamia.github.io/static/media/JamiaLogo.0c87edeb.png",
+    "static/media/REACT.png": "/hive-jamia.github.io/static/media/REACT.a117bf9d.png",
+    "static/media/project1.jpg": "/hive-jamia.github.io/static/media/project1.b0fb6a6c.jpg",
+    "static/media/project2.jpg": "/hive-jamia.github.io/static/media/project2.ad08e0f6.jpg",
+    "static/media/project4.jpg": "/hive-jamia.github.io/static/media/project4.8b37a6e8.jpg",
+    "static/media/project5.jpg": "/hive-jamia.github.io/static/media/project5.d96049ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57d0b4cf.js",
+    "static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f8e449a4.chunk.js",
+    "static/css/main.272b7ba5.chunk.css",
+    "static/js/main.5620695f.chunk.js"
+  ]
+}
