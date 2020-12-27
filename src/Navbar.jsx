@@ -60,7 +60,7 @@ const Home = () => {
                       exact
                       activeClassName="menu_active"
                       className="nav-link"
-                      to="/registerpatient"
+                      to="/event"
                     >
                       Event
                     </NavLink>
@@ -70,17 +70,7 @@ const Home = () => {
                       exact
                       activeClassName="menu_active"
                       className="nav-link"
-                      to="/registerpatient"
-                    >
-                      Resources
-                    </NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink
-                      exact
-                      activeClassName="menu_active"
-                      className="nav-link"
-                      to="/registerpatient"
+                      to="/contact"
                     >
                       Contact Us
                     </NavLink>

@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.mycontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0px 16px 4px 16px;
+  width: 820px;
+}
+@media only screen and (max-width: 600px) {
+  .mycontainer {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .mycontainer {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mycontainer {
+    width: 550px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mycontainer {
+    width: 820px;
+  }
+}
+
+#cards-container {
+  overflow: hidden;
+  margin: 20px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 99999px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 235px;
+  margin: 0px 7.5px 15px 7.5px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card .img {
+  max-width: 220px;
+  height: 220px;
+  display: inline-block;
+}
+
+#slide-left-container,
+#slide-right-container {
+  display: none;
+}
+
+#slide-left-container.active,
+#slide-right-container.active {
+  display: block;
+  cursor: pointer;
+}
+
+.slide-left,
+.slide-right {
+  border-color: black;
+  border-style: solid;
+  height: 20px;
+  width: 20px;
+  margin-top: 30%;
+}
+
+.slide-left {
+  border-width: 4px 0 0 4px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left: 40%;
+}
+
+.slide-right {
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-left: 22%;
+}
+.heading {
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 60;
+  color: #707070;
+  padding-bottom: 20px;
+}
+.h {
+  font-weight: bold;
+  font-family: Consolas;
+  font-size: 60;
+  color: #707070;
+}
+.zoom {
+  transition: transform 0.2s;
+  width: 260px;
+  height: 350px;
+  margin: 0 auto;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+img {
+  width: 260px;
+  height: 270px;
+}
+.caption,
+b {
+  font-weight: bold;
+  font-size: 28;
+  font-family: Consolas;
+}
+.hy {
+  padding-bottom: -20px;
+}
