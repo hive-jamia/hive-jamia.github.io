@@ -610,9 +610,6 @@ img {
   -moz-box-shadow: 0px 0px 5px 0px #707070;
   box-shadow: 0px 0px 5px 0px #707070;
 }
-.social-links .li {
-  border-radius: 60%;
-}
 .social-links .i:hover {
   transform: rotate(360deg);
   transition: all ease 0.3s;

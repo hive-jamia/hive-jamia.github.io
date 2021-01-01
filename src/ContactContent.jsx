@@ -8,8 +8,23 @@ import instagram from "./image/instagram.svg";
 import linkedin from "./image/linkedin.svg";
 import submit from "./image/submit.svg";
 import { Link } from "react-router-dom";
+import emailjs from 'emailjs-com';
 
 const ContactContent = () => {
+
+    function sendEmail(e){
+        e.preventDefault();
+
+        emailjs.sendForm('gmail','template_zv382de',e.target,'user_Per9BVAvagkCBJUdZihvd')
+        .then((result)=>{
+            console.log(result.text);
+        },(error)=>{
+            console.log(error.text);
+        });
+        e.target.reset();
+        alert('Mail Sent Succesfully!');
+    }
+
   return (
     <div>
       <div className="ASSEMBLER">
@@ -69,11 +84,11 @@ const ContactContent = () => {
                                 <div className="col-md-8 col-sm-6 col-xs-6 ">
                                     <div className="container" style={{padding: "0%"}}>
                                         <h3>Send Message</h3><br/><br/><br/><br/>
-                                        <form>
+                                        <form onSubmit={sendEmail}>
                                             <div className="container">
                                                 <div className="row">
                                                     <div className="form-group col-md-6 ">
-                                                        <input type="text" className="form-control" placeholder="Frist Name" id="fname" name="fname" required/>
+                                                        <input type="text" className="form-control" placeholder="First Name" id="fname" name="fname" required/>
                                                     </div>
                                                     <div className="form-group col-md-6">
                                                         <input type="text" className="form-control" placeholder="Last Name" id="lname" name="lname" required/>

@@ -18,7 +18,7 @@ class TeamContent extends Component {
 
   componentDidMount() {
     axios
-      .get("/team.json")
+      .get('/team.json')
       .then((response) => {
         console.log(response.data[0]);
 
