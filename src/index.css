@@ -308,22 +308,17 @@ nav {
   fill: none;
 }
 
-@media only screen and (max-width: 600px) 
-{
-
-  body
-  {
+@media only screen and (max-width: 600px) {
+  body {
     width: 560px;
   }
-  .ABOUTHIVE 
-  {
+  .ABOUTHIVE {
     align-content: center;
     font-family: Consolas;
     vertical-align: middle;
     font-size: 16px;
   }
-  .ABOUTHIVE .heading 
-  {
+  .ABOUTHIVE .heading {
     text-align: center;
     font-weight: bold;
     font-family: Consolas;
@@ -354,9 +349,10 @@ nav {
 .zoom {
   transition: transform 0.2s;
   width: 260px;
-  height: 400px;
+  height: 420px !important;
   margin: 0 auto;
   z-index: 1;
+  transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
@@ -758,11 +754,15 @@ img {
 .project .zoom {
   transition: transform 0.2s;
   width: 360px;
-  height: 585;
+  height: 555px !important;
   margin: 0 auto;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 80px;
+}
+
+.project a {
+  text-decoration: none !important;
 }
 
 .project .zoom:hover {

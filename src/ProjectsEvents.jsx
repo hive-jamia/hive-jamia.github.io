@@ -16,10 +16,9 @@ const ProjectsEvents = () => {
               <div className="zoom">
                 <img src={e1} alt="" />
                 <div className="caption">
-                  <h4>Lorem</h4>
+                  <h4>Webinar</h4>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{" "}
+                    Webinar on emereging trends in industrial and academic research in computer science {" "}
                   </p>
                 </div>
               </div>
@@ -28,10 +27,9 @@ const ProjectsEvents = () => {
               <div className="zoom">
                 <img src={e2} alt="" />
                 <div className="caption">
-                  <h4>Lorem</h4>
+                  <h4 style={{fontSize:"17.5px",fontWeight:"bold"}}>Commpetitive Programming</h4>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{" "}
+                    A session on basics of commpetitive programming along with its do's and dont's for a begginer.{" "}
                   </p>
                 </div>
               </div>
@@ -40,10 +38,9 @@ const ProjectsEvents = () => {
               <div className="zoom">
                 <img src={e3} alt="" />
                 <div className="caption">
-                  <h4>Lorem</h4>
+                  <h4 style={{fontSize:"17.5px",fontWeight:"bold"}}>Web Developement Session</h4>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{" "}
+                    It was a offline session while basics of web developemnt HTML and CSS was discussed. Along with it SEO was also laid focus on.{" "}
                   </p>
                 </div>
               </div>
@@ -52,10 +49,9 @@ const ProjectsEvents = () => {
               <div className="zoom">
                 <img src={e4} alt="" />
                 <div className="caption">
-                  <h4>Lorem</h4>
+                  <h4>The 100</h4>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{" "}
+                    This session embarked the beggining of very famous trend in industry 100 days of code. Here the sole focus was commpetitive programming.{" "}
                   </p>
                 </div>
               </div>
