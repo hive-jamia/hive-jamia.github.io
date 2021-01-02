@@ -17,7 +17,7 @@ function EventContent() {
     return (
         <div>
             <div class="container">
-<h1 class='h'>Latest Events</h1>
+<h1 class='h' style={{textAlign:"center"}}>Latest Events</h1>
 </div>
 <center>
   <div class="mycontainer">
