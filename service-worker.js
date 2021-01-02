@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hive-jamia.github.io/precache-manifest.2966871bbc51503396ec1d26b29bdbdb.js"
+  "/hive-jamia.github.io/precache-manifest.3233a2e3ab3f437ed964aa6cc28a3ef0.js"
 );
 
 self.addEventListener('message', (event) => {
