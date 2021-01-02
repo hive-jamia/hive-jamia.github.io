@@ -419,7 +419,7 @@ nav {
 .hy .zoom {
   transition: transform 0.2s;
   width: 260px;
-  height: 425px;
+  height: 500px !important;
   margin: 0px;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -445,6 +445,20 @@ nav {
 
 .hy .caption h6 {
   font-weight: 600;
+}
+
+.hy .caption p{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.hy .caption button a{
+  text-decoration: none;
+  color: #004868;
+}
+
+.hy .caption button a:hover{
+  color:#ffffff;
 }
 
 /******************* Home Page Projects Ends ******************/
