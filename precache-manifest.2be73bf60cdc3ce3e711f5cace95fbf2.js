@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8880018327f84cbbe52ba565f86756c2",
+    "revision": "bc0ac1b86b2a7e3675828e02a6e0365b",
     "url": "/hive-jamia.github.io/index.html"
   },
   {
-    "revision": "b0afcee6d410eea6139b",
+    "revision": "7725e763bff71e66f9e7",
     "url": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css"
   },
   {
-    "revision": "6c359afe50905065d926",
-    "url": "/hive-jamia.github.io/static/css/main.bba07f01.chunk.css"
+    "revision": "129947a44990b4190522",
+    "url": "/hive-jamia.github.io/static/css/main.9b1f41d5.chunk.css"
   },
   {
-    "revision": "b0afcee6d410eea6139b",
-    "url": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js"
+    "revision": "7725e763bff71e66f9e7",
+    "url": "/hive-jamia.github.io/static/js/2.69406336.chunk.js"
   },
   {
     "revision": "216e2087dbcf18e167ddd071f17f0f35",
-    "url": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js.LICENSE.txt"
+    "url": "/hive-jamia.github.io/static/js/2.69406336.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c359afe50905065d926",
-    "url": "/hive-jamia.github.io/static/js/main.e90ffc63.chunk.js"
+    "revision": "129947a44990b4190522",
+    "url": "/hive-jamia.github.io/static/js/main.624a18c1.chunk.js"
   },
   {
     "revision": "3b91b39658475893b192",
@@ -80,14 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/media/data3.d06fae56.png"
   },
   {
-    "revision": "5c2d7d478dcb44414a425e0512360cc5",
-    "url": "/hive-jamia.github.io/static/media/discord.5c2d7d47.svg"
-  },
-  {
-    "revision": "3a036d8ba2c6667df90fa91a5c070cb6",
-    "url": "/hive-jamia.github.io/static/media/email.3a036d8b.svg"
-  },
-  {
     "revision": "589561f680ce5aea38e0acc68d520431",
     "url": "/hive-jamia.github.io/static/media/event1.589561f6.jpg"
   },
@@ -108,28 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/media/event5.0811a237.jpg"
   },
   {
-    "revision": "84e1953f149501f9ef2ca036174caa49",
-    "url": "/hive-jamia.github.io/static/media/facebook.84e1953f.svg"
-  },
-  {
-    "revision": "a30cae247f5a382c65fa657e56fc78f9",
-    "url": "/hive-jamia.github.io/static/media/github.a30cae24.svg"
-  },
-  {
-    "revision": "191ae8564af94b48cc669398b56b62ce",
-    "url": "/hive-jamia.github.io/static/media/instagram.191ae856.svg"
-  },
-  {
     "revision": "6313d8d0671b39f9443209282fb09562",
     "url": "/hive-jamia.github.io/static/media/laptop.6313d8d0.png"
-  },
-  {
-    "revision": "9aa16b1629a996447a7eba2a168bb5cf",
-    "url": "/hive-jamia.github.io/static/media/linkedin.9aa16b16.svg"
-  },
-  {
-    "revision": "89336d5ec639285e057312c9cff9ae3a",
-    "url": "/hive-jamia.github.io/static/media/location.89336d5e.svg"
   },
   {
     "revision": "327b69d94fe2146e11ca5466838d1658",
@@ -142,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f51b6dcb12ebf9a88ed42d73435787e7",
     "url": "/hive-jamia.github.io/static/media/sc2.f51b6dcb.png"
-  },
-  {
-    "revision": "e328bc2896492449974bc7b32b2aa05a",
-    "url": "/hive-jamia.github.io/static/media/submit.e328bc28.svg"
   },
   {
     "revision": "40146544740d5513b6f9d10e886f331e",
