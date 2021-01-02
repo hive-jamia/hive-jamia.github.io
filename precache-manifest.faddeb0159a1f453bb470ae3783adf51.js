@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cef7ec8f301100557098abe90393c1f",
+    "revision": "125f169eee0a591e73a2df91546eff9f",
     "url": "/hive-jamia.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css"
   },
   {
-    "revision": "d04b463a73b5566897ce",
-    "url": "/hive-jamia.github.io/static/css/main.451d5217.chunk.css"
+    "revision": "de6968e0bb957c37fb8b",
+    "url": "/hive-jamia.github.io/static/css/main.aa6c37b8.chunk.css"
   },
   {
     "revision": "b0afcee6d410eea6139b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d04b463a73b5566897ce",
-    "url": "/hive-jamia.github.io/static/js/main.0f2996d5.chunk.js"
+    "revision": "de6968e0bb957c37fb8b",
+    "url": "/hive-jamia.github.io/static/js/main.553b632f.chunk.js"
   },
   {
     "revision": "3b91b39658475893b192",
