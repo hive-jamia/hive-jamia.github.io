@@ -12,13 +12,10 @@ const ProjectBody = () => {
               </div>
               <img src="https://s27389.pcdn.co/wp-content/uploads/2019/08/four-unexpected-blockchain-use-cases.jpeg" alt="pro" />
               <div className="caption">
-                <div className="container"><p>
+                <p>
                 Web application which emphasis on the quality of blogging by implementing partial concepts of blockchain & Social networking sites{" "}
                 </p>
-                </div>
-                <div className="container">
                 <button><a href="https://github.com/aryabhatta22/Qblogging.git">Read more</a></button>
-                </div>
               </div>
             </div>
           </div>
@@ -29,14 +26,11 @@ const ProjectBody = () => {
               </div>
               <img src="https://avatars3.githubusercontent.com/u/10216045?s=400&v=4" alt="pro" />
               <div className="caption">
-                <div className="container">
                 <p>
                 mlpack: a scalable C++ machine learning library{" "}
                 </p>
-                </div>
-                <div className="container">
+                <br/><br/>
                 <button><a href="https://github.com/zjaweds/mlpack.git">Read more</a></button>
-                </div>
               </div>
             </div>
           </div>
@@ -47,14 +41,11 @@ const ProjectBody = () => {
               </div>
               <img src="https://dhanjivpandey.com/wp-content/uploads/2018/05/php.jpg" alt="pro" />
               <div className="caption">
-              <div className="container">
                 <p>
                 Hall Allotment System for my hostel : Indira Gandhi Hall{" "}
                 </p>
-                </div>
-                <div className="container">
+                <br/>
                 <button><a href="https://github.com/sabasarwar/Hall-Allotment-System.git">Read more</a></button>
-                </div>
               </div>
             </div>
           </div>
@@ -62,7 +53,7 @@ const ProjectBody = () => {
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
               <div className="heading">
-                <h3 style={{fontSize:"26px",fontWeight:"bold"}}>Stock Exchange Prediction</h3>
+                <h3 style={{fontSize:"22px",fontWeight:"bold"}}>Stock Exchange Prediction</h3>
               </div>
               <img src="https://miro.medium.com/max/3840/1*opzxrBna63YDbd8_pM5trw.png" alt="pro" />
               <div className="caption">
@@ -83,7 +74,7 @@ const ProjectBody = () => {
                 <p>
                 Online shopping website demo developed using JSP and Microsoft Access{" "}
                 </p>
-                <br/><br/>
+                <br/>
                 <button><a href="https://github.com/sanaeram5/online_shopping_website.git">Read more</a></button>
               </div>
             </div>
