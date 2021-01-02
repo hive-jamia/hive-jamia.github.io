@@ -10,7 +10,7 @@ const ProjectsEvents = () => {
       <div className="clearfix"></div>
       <div className="container-fluid">
         <h1 className="heading">Events</h1>
-        <div className="container">
+        <div className="container main-container">
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-lg-3">
               <div className="zoom">
