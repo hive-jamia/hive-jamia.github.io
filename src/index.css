@@ -3,7 +3,7 @@
 * {
   font-family: "Montserrat", sans-serif !important;
 }
-/*******************Navbar******************/
+/******************* Navbar ******************/
 
 .navbar {
   background-color: transparent !important;
@@ -35,9 +35,9 @@ nav {
   margin-bottom: 0 !important;
 }
 
-/*******************Navbar******************/
+/******************* Navbar Ends ******************/
 
-/*******************Banner******************/
+/******************* Banner ******************/
 
 #BannerPicture {
   height: 40vh;
@@ -108,9 +108,9 @@ nav {
   }
 }
 
-/*******************Banner******************/
+/******************* Banner Ends ******************/
 
-/*******************About Hive******************/
+/******************* About Hive ******************/
 
 .bgAboutImage {
   background-image: url(image/AboutImage.png);
@@ -318,14 +318,21 @@ nav {
   fill: none;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
+@media only screen and (max-width: 600px) 
+{
+
+  body
+  {
     width: 560px;
   }
-  .bgAboutImage {
+
+  .bgAboutImage 
+  {
     margin-top: 0 !important;
   }
-  .ABOUTHIVE {
+
+  .ABOUTHIVE 
+  {
     align-content: center;
     text-align: center;
     font-family: "Montserrat", sans-serif !important;
@@ -334,7 +341,8 @@ nav {
     margin-left: 10px !important;
     margin-right: 5px;
   }
-  .ABOUTHIVE .heading {
+  .ABOUTHIVE .heading 
+  {
     text-align: center;
     font-weight: medium;
     font-family: "Montserrat", sans-serif !important;
@@ -350,9 +358,9 @@ nav {
     fill: none;
   }
 }
-/*******************About Hive******************/
+/******************* About Hive Ends******************/
 
-/*******************Projects Events******************/
+/******************* Home Page Events ******************/
 
 .clearfix {
   margin-top: 50px;
@@ -363,50 +371,87 @@ nav {
 
 .heading {
   text-align: center;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif !important;
-  font-size: 50;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif !important;
   color: #707070;
   padding-bottom: 30px;
 }
-.zoom {
+.main-container .zoom {
   transition: transform 0.2s;
   width: 260px;
-  margin: 0 auto;
-  height: 420px !important;
+  height: 415px;
+  margin: 0px;
   z-index: 1;
-  transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
 
-.pr .zoom {
-  height: 440px !important;
-}
-
-.zoom:hover {
+.main-container .zoom:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  color: #707070;
 }
-img {
-  width: 260px;
-  height: 300px;
+.main-container img {
+  width: 260px !important;
+  height: 360px !important;
 }
-.caption {
+.main-container .caption {
+  margin-top: 15px;
   text-align: center;
-  font-size: 28;
-  font-family: Consolas;
-}
-.caption p {
-  font-size: 14px;
-}
-.container {
-  margin-bottom: 80px;
-  margin-top: 60px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
-/*******************Projects Events******************/
+.main-container {
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+/******************* Home Page Events Ends ******************/
+
+
+/******************* Home Page Projects ******************/
+
+
+.hy{
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+.hy .zoom{
+  transition: transform 0.2s;
+  width: 260px;
+  height: 425px;
+  margin: 0px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+.hy .zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #707070;
+}
+.hy img {
+  width: 260px !important;
+  height: 260px !important;
+}
+.hy .caption {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+}
+
+.hy .caption h6{
+  font-weight: 600;
+}
+
+/******************* Home Page Projects Ends ******************/
+
 
 /*******************Footer******************/
 
@@ -660,6 +705,9 @@ img {
   -moz-box-shadow: 0px 0px 5px 0px #707070;
   box-shadow: 0px 0px 5px 0px #707070;
 }
+.social-links .li {
+  border-radius: 60%;
+}
 .social-links .i:hover {
   transform: rotate(360deg);
   transition: all ease 0.3s;
@@ -782,16 +830,12 @@ img {
 .project .zoom {
   transition: transform 0.2s;
   width: 360px;
-  height: 555px !important;
+  height: 585;
   margin: 0 auto;
   z-index: 1;
   transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 80px;
-}
-
-.project a {
-  text-decoration: none !important;
 }
 
 .project .zoom:hover {
