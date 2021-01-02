@@ -419,7 +419,7 @@ nav {
 .hy .zoom {
   transition: transform 0.2s;
   width: 260px;
-  height: 400px !important;
+  height: 460px !important;
   margin: 0px;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -447,18 +447,18 @@ nav {
   font-weight: 600;
 }
 
-.hy .caption p{
+.hy .caption p {
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
 
-.hy .caption button a{
+.hy .caption button a {
   text-decoration: none;
   color: #004868;
 }
 
-.hy .caption button a:hover{
-  color:#ffffff;
+.hy .caption button a:hover {
+  color: #ffffff;
 }
 
 /******************* Home Page Projects Ends ******************/
@@ -896,8 +896,7 @@ nav {
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.34);
 }
 
-#OUTER-DIV
-{
+#OUTER-DIV {
   height: 35vh !important;
 }
 
@@ -913,13 +912,11 @@ nav {
 
 /* style={{marginTop: "30px", marginLeft: "20px"}} */
 
-.form-content
-{
+.form-content {
   margin: 20px !important;
 }
 
-.form-content .d-flex
-{
+.form-content .d-flex {
   width: 530px !important;
 }
 
