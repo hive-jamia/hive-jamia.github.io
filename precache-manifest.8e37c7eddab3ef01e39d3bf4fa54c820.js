@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6b66ef84e7d6266e000a191809e4051",
+    "revision": "0c58fdca72334b5db32b8a6d848a529c",
     "url": "/hive-jamia.github.io/index.html"
   },
   {
-    "revision": "8109423a5bc3662b7c48",
+    "revision": "5ed140bed1f231bb7ade",
     "url": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css"
   },
   {
-    "revision": "a04c0d62c8f521b90332",
-    "url": "/hive-jamia.github.io/static/css/main.ae97b3cc.chunk.css"
+    "revision": "908aa3c34018eb98fc39",
+    "url": "/hive-jamia.github.io/static/css/main.516cc0e2.chunk.css"
   },
   {
-    "revision": "8109423a5bc3662b7c48",
-    "url": "/hive-jamia.github.io/static/js/2.36015ba3.chunk.js"
+    "revision": "5ed140bed1f231bb7ade",
+    "url": "/hive-jamia.github.io/static/js/2.7c19fd13.chunk.js"
   },
   {
     "revision": "216e2087dbcf18e167ddd071f17f0f35",
-    "url": "/hive-jamia.github.io/static/js/2.36015ba3.chunk.js.LICENSE.txt"
+    "url": "/hive-jamia.github.io/static/js/2.7c19fd13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a04c0d62c8f521b90332",
-    "url": "/hive-jamia.github.io/static/js/main.e96f0831.chunk.js"
+    "revision": "908aa3c34018eb98fc39",
+    "url": "/hive-jamia.github.io/static/js/main.53540f55.chunk.js"
   },
   {
     "revision": "3b91b39658475893b192",
@@ -68,12 +68,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/media/REACT.a117bf9d.png"
   },
   {
+    "revision": "b67c3fe7ffb87e38358bea8b0fc80de9",
+    "url": "/hive-jamia.github.io/static/media/data1.b67c3fe7.png"
+  },
+  {
+    "revision": "486dd04946215b638c8795424a235681",
+    "url": "/hive-jamia.github.io/static/media/data2.486dd049.png"
+  },
+  {
+    "revision": "d06fae564dcbef1d7e73815726bf8394",
+    "url": "/hive-jamia.github.io/static/media/data3.d06fae56.png"
+  },
+  {
     "revision": "5c2d7d478dcb44414a425e0512360cc5",
     "url": "/hive-jamia.github.io/static/media/discord.5c2d7d47.svg"
   },
   {
     "revision": "3a036d8ba2c6667df90fa91a5c070cb6",
     "url": "/hive-jamia.github.io/static/media/email.3a036d8b.svg"
+  },
+  {
+    "revision": "589561f680ce5aea38e0acc68d520431",
+    "url": "/hive-jamia.github.io/static/media/event1.589561f6.jpg"
+  },
+  {
+    "revision": "5f9d94e7f56f7c4f78c6a11928fd7173",
+    "url": "/hive-jamia.github.io/static/media/event2.5f9d94e7.jpg"
+  },
+  {
+    "revision": "ddba4ab3bacb0872c5af453b31f90ba3",
+    "url": "/hive-jamia.github.io/static/media/event3.ddba4ab3.jpg"
+  },
+  {
+    "revision": "123dc540ebcf5ebe8ce1c0f1dab110ea",
+    "url": "/hive-jamia.github.io/static/media/event4.123dc540.jpg"
+  },
+  {
+    "revision": "0811a237edc5dcfb0eedd63d3d12f3b4",
+    "url": "/hive-jamia.github.io/static/media/event5.0811a237.jpg"
   },
   {
     "revision": "84e1953f149501f9ef2ca036174caa49",
@@ -100,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/media/location.89336d5e.svg"
   },
   {
+    "revision": "327b69d94fe2146e11ca5466838d1658",
+    "url": "/hive-jamia.github.io/static/media/orient.327b69d9.jpg"
+  },
+  {
     "revision": "b0fb6a6cee1dba7382836917954e568a",
     "url": "/hive-jamia.github.io/static/media/project1.b0fb6a6c.jpg"
   },
@@ -116,7 +152,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/media/project5.d96049ae.jpg"
   },
   {
+    "revision": "72be1e0fb7e627d461fb94756f10db5c",
+    "url": "/hive-jamia.github.io/static/media/sc1.72be1e0f.png"
+  },
+  {
+    "revision": "f51b6dcb12ebf9a88ed42d73435787e7",
+    "url": "/hive-jamia.github.io/static/media/sc2.f51b6dcb.png"
+  },
+  {
     "revision": "e328bc2896492449974bc7b32b2aa05a",
     "url": "/hive-jamia.github.io/static/media/submit.e328bc28.svg"
+  },
+  {
+    "revision": "40146544740d5513b6f9d10e886f331e",
+    "url": "/hive-jamia.github.io/static/media/web1.40146544.png"
+  },
+  {
+    "revision": "91d3071a6f493783146c54736482dffd",
+    "url": "/hive-jamia.github.io/static/media/web2.91d3071a.jpg"
   }
 ]);
