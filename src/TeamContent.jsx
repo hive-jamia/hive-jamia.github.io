@@ -59,7 +59,7 @@ class TeamContent extends Component {
                               <h2 class="wow slideInUp">{members.Name}</h2>
                               <h3 class="wow slideInUp">{members.Domain}</h3>
                               <div class="social-links">
-                                <NavLink exact to="/">
+                                <NavLink exact to={members.LinkedIn}>
                                   <FontAwesomeIcon
                                     className="li i"
                                     icon={faLinkedin}
@@ -73,7 +73,7 @@ class TeamContent extends Component {
                                     size="lg"
                                   />
                                 </NavLink>
-                                <NavLink exact to="/">
+                                <NavLink exact to={members.Github}>
                                   <FontAwesomeIcon
                                     className="i"
                                     icon={faGithub}
