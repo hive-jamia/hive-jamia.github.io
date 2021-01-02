@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 * {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 /*******************Navbar******************/
 
@@ -57,7 +57,7 @@ nav {
   position: absolute;
   top: 1.5em;
   left: 1.5vw;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 3.5vw;
   color: #ffffff;
   font-weight: semi-bold;
@@ -74,16 +74,13 @@ nav {
   margin-left: -15px;
 }
 
-@media screen and (max-width: 600px) 
-{
-  .USELESS
-  {
+@media screen and (max-width: 600px) {
+  .USELESS {
     height: 230px !important;
     position: relative;
     margin-bottom: 0;
   }
-  #BannerPicture 
-  {
+  #BannerPicture {
     height: 27vw;
     width: 100%;
     margin-right: 0 !important;
@@ -124,14 +121,14 @@ nav {
 }
 .ABOUTHIVE {
   align-content: center;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   vertical-align: middle;
   font-size: 19px;
 }
 .ABOUTHIVE .heading {
   text-align: center;
   font-weight: semi-bold;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 60;
   color: #707070;
   padding-bottom: 30px;
@@ -325,21 +322,13 @@ nav {
   body {
     width: 560px;
   }
-<<<<<<< HEAD
-
-  .bgAboutImage 
-  {
+  .bgAboutImage {
     margin-top: 0 !important;
   }
-
-  .ABOUTHIVE 
-  {
-=======
   .ABOUTHIVE {
->>>>>>> db86c9a62e93cec15cbda843dacb4dbc9f0b5e08
     align-content: center;
     text-align: center;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
     vertical-align: middle;
     font-size: 16px;
     margin-left: 10px !important;
@@ -348,7 +337,7 @@ nav {
   .ABOUTHIVE .heading {
     text-align: center;
     font-weight: medium;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
     font-size: 40;
     color: #707070;
     padding-bottom: 30px;
@@ -375,7 +364,7 @@ nav {
 .heading {
   text-align: center;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 50;
   color: #707070;
   padding-bottom: 30px;
@@ -383,13 +372,8 @@ nav {
 .zoom {
   transition: transform 0.2s;
   width: 260px;
-<<<<<<< HEAD
-  height: 400px;
-  margin: 10px;
-=======
-  height: 420px !important;
   margin: 0 auto;
->>>>>>> db86c9a62e93cec15cbda843dacb4dbc9f0b5e08
+  height: 420px !important;
   z-index: 1;
   transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -454,7 +438,7 @@ img {
   display: flex;
 }
 .about h3 {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 30px !important;
 }
 .about h4 {
@@ -468,7 +452,7 @@ img {
 .footer .footer_content h3 {
   color: #ffff;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   margin-top: 155px;
   margin-left: 30px;
   font-size: 26px;
@@ -478,7 +462,7 @@ img {
 .footer .footer_content h4 {
   color: white;
   font-size: 20;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   margin-top: 185px;
   margin-left: 30px;
   position: relative;
@@ -609,7 +593,7 @@ img {
   position: relative;
   background: #ff9933;
   padding: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 80px !important;
   text-align: center;
   color: #fff;
   padding-top: 100px;

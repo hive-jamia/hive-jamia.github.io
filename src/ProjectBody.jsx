@@ -12,10 +12,13 @@ const ProjectBody = () => {
               </div>
               <img src="https://s27389.pcdn.co/wp-content/uploads/2019/08/four-unexpected-blockchain-use-cases.jpeg" alt="pro" />
               <div className="caption">
-                <p>
+                <div className="container"><p>
                 Web application which emphasis on the quality of blogging by implementing partial concepts of blockchain & Social networking sites{" "}
                 </p>
+                </div>
+                <div className="container">
                 <button><a href="https://github.com/aryabhatta22/Qblogging.git">Read more</a></button>
+                </div>
               </div>
             </div>
           </div>
@@ -26,11 +29,14 @@ const ProjectBody = () => {
               </div>
               <img src="https://avatars3.githubusercontent.com/u/10216045?s=400&v=4" alt="pro" />
               <div className="caption">
+                <div className="container">
                 <p>
                 mlpack: a scalable C++ machine learning library{" "}
                 </p>
-                <br/><br/>
+                </div>
+                <div className="container">
                 <button><a href="https://github.com/zjaweds/mlpack.git">Read more</a></button>
+                </div>
               </div>
             </div>
           </div>
@@ -41,11 +47,14 @@ const ProjectBody = () => {
               </div>
               <img src="https://dhanjivpandey.com/wp-content/uploads/2018/05/php.jpg" alt="pro" />
               <div className="caption">
+              <div className="container">
                 <p>
                 Hall Allotment System for my hostel : Indira Gandhi Hall{" "}
                 </p>
-                <br/><br/>
+                </div>
+                <div className="container">
                 <button><a href="https://github.com/sabasarwar/Hall-Allotment-System.git">Read more</a></button>
+                </div>
               </div>
             </div>
           </div>
