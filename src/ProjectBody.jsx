@@ -53,7 +53,7 @@ const ProjectBody = () => {
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
               <div className="heading">
-                <h3 style={{fontSize:"22px",fontWeight:"bold"}}>Stock Exchange Prediction</h3>
+                <h3>Stock Exchange Prediction</h3>
               </div>
               <img src="https://miro.medium.com/max/3840/1*opzxrBna63YDbd8_pM5trw.png" alt="pro" />
               <div className="caption">
