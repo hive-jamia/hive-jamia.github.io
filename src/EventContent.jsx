@@ -130,11 +130,11 @@ function EventContent() {
 
   </div>
   </center> 
-<div class="container">
+<div class="container ccs">
 <h1 class='heading'>Commpetitive Coding Society</h1>
     <div class="row">
         <div class='col-xs-12 col-sm-6 col-lg-3'>
-            <div class='zoom' style={{width:"450px"}}>
+            <div class='zoom'>
                 <img  src={e4} alt="" style={{height:"350px"}} />
                 <div class="caption">
                             <h4><b> The 100</b></h4>
@@ -177,7 +177,7 @@ function EventContent() {
 <h1 class='heading'>Web Developement Society</h1>
     <div class="row hi">
         <div class='col-xs-12 col-sm-6 col-lg-4'>
-            <div class='zoom' style={{width:"350px",height:"350px"}}>
+            <div class='zoom' style={{width:"350px"}}>
                 <img  src={e3} alt="" style={{height:"320px",width:"350px"}}/>
                 <div class="caption">
                             <h4><b> Web Developement Session</b></h4>
@@ -211,7 +211,7 @@ function EventContent() {
 <h1 class='heading'>Data Science Society</h1>
     <div class="row hi">
         <div class='col-xs-12 col-sm-6 col-lg-4'>
-            <div class='zoom' style={{width:"350px",height:"350px"}}>
+            <div class='zoom' style={{width:"350px"}}>
                 <img  src={e5} alt="" style={{height:"320px",width:"350px"}}/>
                 <div class="caption">
                             <h4><b>Machine Learning</b></h4>

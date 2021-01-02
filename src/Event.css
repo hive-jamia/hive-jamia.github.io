@@ -120,6 +120,15 @@ body {
   font-size: 60;
   color: #707070;
 }
+.ccs .zoom {
+  height: 400px !important;
+}
+.wd .zoom {
+  height: 360px !important;
+}
+.ds .zoom {
+  height: 370px !important;
+}
 .zoom {
   transition: transform 0.2s;
   width: 260px;
