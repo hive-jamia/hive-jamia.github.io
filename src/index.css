@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
-  font-family: Consolas !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 /*******************Navbar******************/
 
@@ -7,10 +9,10 @@
   background-color: transparent !important;
 }
 .navbar-nav {
-  margin-right: 80px !important;
+  margin-right: 0px !important;
 }
 .navbar a {
-  font-size: 1.7rem !important;
+  font-size: 1.6rem !important;
   text-transform: capitalize !important;
   text-decoration-line: none;
   margin-left: 10px;
@@ -20,13 +22,13 @@
   text-decoration-line: none;
 }
 .menu_active {
-  font-weight: bold !important;
+  font-weight: medium !important;
   border-bottom: 1px solid orange !important;
 }
 .logo {
   width: 70px !important;
   height: 50px !important;
-  margin-left: 80px !important;
+  margin-left: 5px !important;
 }
 nav {
   margin-top: 0 !important;
@@ -38,7 +40,7 @@ nav {
 /*******************Banner******************/
 
 #BannerPicture {
-  height: 80vh;
+  height: 40vh;
   position: absolute;
   margin-right: 0 !important;
 }
@@ -54,17 +56,17 @@ nav {
 .welcomeText1 {
   position: absolute;
   top: 1.5em;
-  left: 5.5vw;
-  font-family: Consolas;
-  font-size: 4.1vw;
+  left: 1.5vw;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 3.5vw;
   color: #ffffff;
-  font-weight: bold;
-  margin-left: 30px;
+  font-weight: semi-bold;
+  margin-left: 10px;
 }
 
 .welcomeText1 {
   top: 3em;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .row {
@@ -72,26 +74,36 @@ nav {
   margin-left: -15px;
 }
 
-@media screen and (max-width: 600px) {
-  #BannerPicture {
-    height: 47vw;
+@media screen and (max-width: 600px) 
+{
+  .USELESS
+  {
+    height: 230px !important;
+    position: relative;
+    margin-bottom: 0;
+  }
+  #BannerPicture 
+  {
+    height: 27vw;
     width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .welcomeText,
   .welcomeText1 {
     position: absolute;
     top: 0.9em;
-    left: 5vw;
+    left: 1.8vw;
     font-family: Consolas;
     font-size: 5vw;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: medium;
   }
   .welcomeText1 {
     top: 2.1em;
   }
   #DownArrow {
-    height: 10vw;
+    height: 4vw;
     position: relative;
     bottom: -30vw;
     left: 2.5em;
@@ -108,17 +120,18 @@ nav {
   background-position: center;
   background-size: 80% 80%;
   background-repeat: no-repeat;
+  margin-top: 0;
 }
 .ABOUTHIVE {
   align-content: center;
-  font-family: Consolas;
+  font-family: 'Montserrat', sans-serif !important;
   vertical-align: middle;
   font-size: 19px;
 }
 .ABOUTHIVE .heading {
   text-align: center;
-  font-weight: bold;
-  font-family: Consolas;
+  font-weight: semi-bold;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 60;
   color: #707070;
   padding-bottom: 30px;
@@ -315,21 +328,37 @@ nav {
   {
     width: 560px;
   }
+
+  .bgAboutImage 
+  {
+    margin-top: 0 !important;
+  }
+
   .ABOUTHIVE 
   {
     align-content: center;
-    font-family: Consolas;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
     vertical-align: middle;
     font-size: 16px;
+    margin-left: 10px !important;
+    margin-right: 5px;
   }
   .ABOUTHIVE .heading 
   {
     text-align: center;
-    font-weight: bold;
-    font-family: Consolas;
+    font-weight: medium;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 40;
     color: #707070;
     padding-bottom: 30px;
+  }
+
+  .p1 {
+    padding: 10px !important;
+    stroke: none;
+    stroke-width: 3px;
+    fill: none;
   }
 }
 /*******************About Hive******************/
@@ -346,8 +375,8 @@ nav {
 .heading {
   text-align: center;
   font-weight: bold;
-  font-family: Consolas;
-  font-size: 60;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 50;
   color: #707070;
   padding-bottom: 30px;
 }
@@ -355,7 +384,7 @@ nav {
   transition: transform 0.2s;
   width: 260px;
   height: 400px;
-  margin: 0 auto;
+  margin: 10px;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
@@ -379,7 +408,8 @@ img {
   font-size: 14px;
 }
 .container {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  margin-top: 60px;
 }
 
 /*******************Projects Events******************/
@@ -399,14 +429,14 @@ img {
   overflow-y: hidden;
   color: white;
   height: 350px;
-  margin-top: 40px;
+  margin-top: 0px;
   width: 100%;
 }
 .footer .about {
-  margin-left: 60px;
+  margin-left: 10px;
 }
 .footer .links {
-  margin-right: 40px;
+  margin-right: 10px;
 }
 .footer .footer_content {
   height: 300px;
@@ -414,7 +444,7 @@ img {
   display: flex;
 }
 .about h3 {
-  font-family: Consolas;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 30px !important;
 }
 .about h4 {
@@ -428,7 +458,7 @@ img {
 .footer .footer_content h3 {
   color: #ffff;
   font-size: 30px;
-  font-family: verdana;
+  font-family: 'Montserrat', sans-serif !important;
   margin-top: 155px;
   margin-left: 30px;
   font-size: 26px;
@@ -438,7 +468,7 @@ img {
 .footer .footer_content h4 {
   color: white;
   font-size: 20;
-  font-family: verdana;
+  font-family: 'Montserrat', sans-serif !important;
   margin-top: 185px;
   margin-left: 30px;
   position: relative;
@@ -716,9 +746,9 @@ img {
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 1.5%;
-  padding-right: 0%;
-  padding-left: 8%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
   overflow-y: hidden;
   width: 100%;
   height: 100vh;
