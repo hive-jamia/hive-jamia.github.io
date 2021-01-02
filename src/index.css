@@ -325,14 +325,10 @@ nav {
   {
     width: 560px;
   }
-
-  .bgAboutImage 
-  {
+  .bgAboutImage {
     margin-top: 0 !important;
   }
-
-  .ABOUTHIVE 
-  {
+  .ABOUTHIVE {
     align-content: center;
     text-align: center;
     font-family: "Montserrat", sans-serif !important;
@@ -371,22 +367,23 @@ nav {
 
 .heading {
   text-align: center;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 50;
   color: #707070;
   padding-bottom: 30px;
 }
 .main-container .zoom {
   transition: transform 0.2s;
   width: 260px;
-  height: 415px;
-  margin: 0px;
+  margin: 0 auto;
+  height: 420px !important;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
 
-.main-container .zoom:hover {
+.zoom:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
