@@ -4,10 +4,11 @@ import './Contact.css';
 const ContactContent = () => {
 
   return (
-    <div className="container">
+    <div className="container contain">
+        <h3>Contact Us</h3>
   <form >
 
-    <label for="fname">First Name</label>
+    <label for="fname">Full Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Name.."/>
 
     <label for="email">Email</label>
