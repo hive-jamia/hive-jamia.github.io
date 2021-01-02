@@ -132,7 +132,7 @@ function EventContent() {
   </center> 
 <div class="container ccs">
 <h1 class='heading'>Commpetitive Coding Society</h1>
-    <div class="row">
+    <div class="row hi">
         <div class='col-xs-12 col-sm-6 col-lg-3'>
             <div class='zoom'>
                 <img  src={e4} alt="" style={{height:"350px"}} />

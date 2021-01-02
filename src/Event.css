@@ -120,19 +120,10 @@ body {
   font-size: 60;
   color: #707070;
 }
-.ccs .zoom {
-  height: 400px !important;
-}
-.wd .zoom {
-  height: 360px !important;
-}
-.ds .zoom {
-  height: 370px !important;
-}
 .zoom {
   transition: transform 0.2s;
   width: 260px;
-  height: 350px;
+  height: 355px !important;
   margin: 0 auto;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
