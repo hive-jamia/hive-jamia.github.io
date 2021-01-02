@@ -26,21 +26,19 @@ const ContactContent = () => {
     }
 
   return (
-    <div>
-      <div className="ASSEMBLER">
-            <div className="MAP">       
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1752.1250035478488!2d77.28008918791511!3d28.5622544659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce38c812c0029%3A0x73f56fbe2fc71d28!2sDepartment%20of%20Computer%20Science!5e0!3m2!1sen!2sin!4v1604419720615!5m2!1sen!2sin" title="jamia" width="100%" height="100%" frameborder="0" style={{border:"0"}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            <div className="container-fluid" id="CONTACTUSFORM">
+    <div id="OUTER-DIV">
+
+            
+            <div className="container" id="CONTACTUSFORM">
                 <div className="row sets">
                     <div className="col-12 "style={{padding: "0%"}}>
                         <div className="card col-md-12 col-sm-12" >
                             <div className="row">
                                 
                                 <div className="col-md-4 col-sm-6 col-xs-6 contact order-md-2 order-sm-2" style={{padding: "2%"}}>
-                                    <div className="conatiner">
+                                    <div className="container">
                                         <h1 style={{fontSize:"18px"}}>Contact Information</h1>
-                                        <div className="conatiner">
+                                        <div className="container">
                                             <div className="d-flex" style={{marginTop:"10%"}}>
                                                 <div class="col-md-11"><img src={location} alt="" style={{height:"30px",width:"30px",float:"left",marginRight:"5px"}}/><h3 style={{fontSize:"18px"}}>Department Of Computer Science, JMI.<br/>
                                                     New Delhi-110025</h3></div>
@@ -81,9 +79,11 @@ const ContactContent = () => {
                                         </div> 
                                     </div>
                                 </div>
+
+
                                 <div className="col-md-8 col-sm-6 col-xs-6 ">
-                                    <div className="container" style={{padding: "0%"}}>
-                                        <h3>Send Message</h3><br/><br/><br/><br/>
+                                    <div className="container form-content" style={{padding: "0%"}}>
+                                        <h4>Send Message</h4><br/><br/><br/><br/>
                                         <form onSubmit={sendEmail}>
                                             <div className="container">
                                                 <div className="row">
@@ -125,7 +125,6 @@ const ContactContent = () => {
                 </div>
             </div>    
         </div>
-    </div>
   );
 };
 

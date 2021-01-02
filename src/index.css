@@ -859,23 +859,30 @@ nav {
 
 /*******************ContactUs******************/
 
-.ASSEMBLER {
+/* .ASSEMBLER {
   padding-left: 0;
   padding-right: 0;
   height: 95vh;
-}
-.MAP {
+} */
+/* .MAP {
   padding-left: 0;
   padding-right: 0;
   height: 80%;
   width: 100%;
   margin: auto;
-}
+} */
 #CONTACTUSFORM {
+  margin-top: 120px !important;
   transform: translate(0%, -40%);
   width: 70%;
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.34);
 }
+
+#OUTER-DIV
+{
+  height: 35vh !important;
+}
+
 .ANCHOR {
   object-fit: contain;
 }
@@ -884,6 +891,18 @@ nav {
 }
 .sets {
   align-items: center;
+}
+
+/* style={{marginTop: "30px", marginLeft: "20px"}} */
+
+.form-content
+{
+  margin: 20px !important;
+}
+
+.form-content .d-flex
+{
+  width: 530px !important;
 }
 
 input[type="text"] {
