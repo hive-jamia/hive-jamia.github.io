@@ -826,7 +826,7 @@ nav {
 .project .zoom {
   transition: transform 0.2s;
   width: 360px;
-  height: 585px !important;
+  height: 485px !important;
   margin: 0 auto;
   z-index: 1;
   transition: transform 450ms;
@@ -849,6 +849,10 @@ nav {
   font-family: Segoe UI;
   padding: 10px;
   font-weight: 500;
+}
+
+.project a {
+  text-decoration: none;
 }
 
 .project button {

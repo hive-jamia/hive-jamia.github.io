@@ -130,11 +130,11 @@ function EventContent() {
 
   </div>
   </center> 
-<div class="container">
+<div class="container ccs">
 <h1 class='heading'>Commpetitive Coding Society</h1>
-    <div class="row">
+    <div class="row hi ccs">
         <div class='col-xs-12 col-sm-6 col-lg-3'>
-            <div class='zoom' style={{}}>
+            <div class='zoom'>
                 <img  src={e4} alt="" style={{height:"350px"}} />
                 <div class="caption">
                             <h4><b> The 100</b></h4>

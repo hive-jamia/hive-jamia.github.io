@@ -50,7 +50,7 @@ const ProjectsEvents = () => {
 
 
         <h2 className="heading">Projects</h2>
-        <div className="container hy">
+        <div className="container hy pr">
           <div className="row hi">
             <div className="col-xs-12 col-sm-6 col-lg-3">
               <div className="zoom">
