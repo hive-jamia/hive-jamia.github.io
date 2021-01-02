@@ -61,7 +61,8 @@ const ProjectsEvents = () => {
                     <p>
                     Web application which emphasis on the quality of blogging by implementing partial concepts of blockchain & Social networking sites{" "}
                     </p> 
-                  </div>  
+                  </div>
+                  <br/><br/><br/>  
                   <button type="button" class="btn btn-outline-dark btn-sm"><a href="https://github.com/aryabhatta22/Qblogging.git">Source Code</a></button>
                 </div>
               </div>
@@ -75,6 +76,7 @@ const ProjectsEvents = () => {
                     <p>
                     MLpack, A scalable C++ machine learning library</p>
                   </div> 
+                  <br/><br/><br/><br/>
                   <button type="button" class="btn btn-outline-dark btn-sm"><a href="https://github.com/zjaweds/mlpack.git">Source Code</a></button>
                 </div>
               </div>
@@ -87,6 +89,7 @@ const ProjectsEvents = () => {
                   <div className="project-desc">
                     <p>Hall Allotment System for my hostel, Indira Gandhi Hall</p>
                   </div>
+                  <br/><br/><br/><br/>
                   <button type="button" class="btn btn-outline-dark btn-sm"><a href="https://github.com/sabasarwar/Hall-Allotment-System.git">Source Code</a></button>
                 </div>
               </div>
@@ -100,6 +103,7 @@ const ProjectsEvents = () => {
                     <p>
                     The model predicts whether the stock prices of a company are going to be Up or Down based on the historical performance of its stock.</p>
                   </div>
+                  <br/><br/><br/>
                  <button type="button" class="btn btn-outline-dark btn-sm"><a href="https://github.com/aryabhatta22/Stock-Exchange-Prediction-using-CNN.git">Source Code</a></button>
                 </div>
               </div>
