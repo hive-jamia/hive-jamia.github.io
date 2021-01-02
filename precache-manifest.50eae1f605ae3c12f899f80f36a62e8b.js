@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50615f2cd15102749aaa6cb22a30c674",
+    "revision": "0b7c547db6993ca0305c1567ee50a8b3",
     "url": "/hive-jamia.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css"
   },
   {
-    "revision": "87b1ccd42a1ba2d8b69d",
-    "url": "/hive-jamia.github.io/static/css/main.1bfae9d6.chunk.css"
+    "revision": "1be632718e699e6bc16e",
+    "url": "/hive-jamia.github.io/static/css/main.7a5f6cd8.chunk.css"
   },
   {
     "revision": "b0afcee6d410eea6139b",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87b1ccd42a1ba2d8b69d",
+    "revision": "1be632718e699e6bc16e",
     "url": "/hive-jamia.github.io/static/js/main.8e7cc933.chunk.js"
   },
   {
