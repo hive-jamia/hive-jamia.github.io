@@ -321,13 +321,11 @@ nav {
   fill: none;
 }
 
-@media only screen and (max-width: 600px) 
-{
-
-  body
-  {
+@media only screen and (max-width: 600px) {
+  body {
     width: 560px;
   }
+<<<<<<< HEAD
 
   .bgAboutImage 
   {
@@ -336,6 +334,9 @@ nav {
 
   .ABOUTHIVE 
   {
+=======
+  .ABOUTHIVE {
+>>>>>>> db86c9a62e93cec15cbda843dacb4dbc9f0b5e08
     align-content: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif !important;
@@ -344,8 +345,7 @@ nav {
     margin-left: 10px !important;
     margin-right: 5px;
   }
-  .ABOUTHIVE .heading 
-  {
+  .ABOUTHIVE .heading {
     text-align: center;
     font-weight: medium;
     font-family: 'Montserrat', sans-serif !important;
@@ -383,9 +383,15 @@ nav {
 .zoom {
   transition: transform 0.2s;
   width: 260px;
+<<<<<<< HEAD
   height: 400px;
   margin: 10px;
+=======
+  height: 420px !important;
+  margin: 0 auto;
+>>>>>>> db86c9a62e93cec15cbda843dacb4dbc9f0b5e08
   z-index: 1;
+  transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
@@ -666,9 +672,6 @@ img {
   -moz-box-shadow: 0px 0px 5px 0px #707070;
   box-shadow: 0px 0px 5px 0px #707070;
 }
-.social-links .li {
-  border-radius: 60%;
-}
 .social-links .i:hover {
   transform: rotate(360deg);
   transition: all ease 0.3s;
@@ -791,11 +794,15 @@ img {
 .project .zoom {
   transition: transform 0.2s;
   width: 360px;
-  height: 585;
+  height: 555px !important;
   margin: 0 auto;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 80px;
+}
+
+.project a {
+  text-decoration: none !important;
 }
 
 .project .zoom:hover {

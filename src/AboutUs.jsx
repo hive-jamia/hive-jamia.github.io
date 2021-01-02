@@ -91,21 +91,10 @@ const AboutUs = () => {
                   <h1 className="heading">About Hive</h1>
                 </b>
                 <p>
-                  All Googlers have access to excellent healthcare choices. In
-                  some locations, we also offer onsite wellness and healthcare
-                  services, including physicians, chiropractic, physical
-                  therapy, and massage services. In addition, many of our
-                  offices are equipped with on-site fitness centers and classes
-                  to save you time and keep you fit. Our wide assortment of on
-                  campus cafes and micro kitchens provide nutritious meals and
-                  snacks to keep you healthfully energized throughout the day.
+                Hive, a student-run cooperative club of Jamia Millia Islamia, inherits the motto “He taught man what he knew not”,  and aims at encouraging ‘innovation and creativity’ among students. As learning is the best means of self-improvement, we as a team do ample projects and other programs, and they are our vital opportunities of learning.
                 </p>
                 <p>
-                  We all need time away from work to recharge, travel, take care
-                  of personal stuff, or spend time with family and friends. Take
-                  a vacation, volunteer, or flex your workday to meet your
-                  personal and business needs—there’s no one-size-fits-all
-                  recipe for helping you to be at your best.
+                This club majorly involves students to develop real world projects, together we transform ideas into reality. We focus on developing motivation among the students for coding and bring like-minded people together to develop critical projects so that they get industry-ready and can contribute to the society as well. 
                 </p>
               </div>
             </td>
