@@ -39,15 +39,15 @@ const ContactContent = () => {
                                 
                                 <div className="col-md-4 col-sm-6 col-xs-6 contact order-md-2 order-sm-2" style={{padding: "2%"}}>
                                     <div className="conatiner">
-                                        <h1>Contact Information</h1>
+                                        <h1 style={{fontSize:"18px"}}>Contact Information</h1>
                                         <div className="conatiner">
                                             <div className="d-flex" style={{marginTop:"10%"}}>
-                                                <div class="col-md-11"><img src={location} alt="" style={{height:"30px",width:"30px",float:"left",marginRight:"5px"}}/><h3 >Department Of Computer Science, JMI.<br/>
+                                                <div class="col-md-11"><img src={location} alt="" style={{height:"30px",width:"30px",float:"left",marginRight:"5px"}}/><h3 style={{fontSize:"18px"}}>Department Of Computer Science, JMI.<br/>
                                                     New Delhi-110025</h3></div>
                                             </div>
                                             <div className="d-flex " style={{marginTop:"10%"}}>
                                                 <div className="col-md-10"><img src={email} alt="" style={{height:"30px",width:"30px",float:"left",marginRight:"5px"}}/>
-                                                   <h3> hivejamia@gmail.com</h3>
+                                                   <h3 style={{fontSize:"17px"}}> hivejamia@gmail.com</h3>
                                                 </div>
                                             </div>
                                             <br/><br/>
