@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hive-jamia.github.io/static/css/main.7a5f6cd8.chunk.css",
+    "main.css": "/hive-jamia.github.io/static/css/main.5dc6cb87.chunk.css",
     "main.js": "/hive-jamia.github.io/static/js/main.8e7cc933.chunk.js",
     "main.js.map": "/hive-jamia.github.io/static/js/main.8e7cc933.chunk.js.map",
     "runtime-main.js": "/hive-jamia.github.io/static/js/runtime-main.57d0b4cf.js",
@@ -9,10 +9,10 @@
     "static/js/2.9c727c94.chunk.js": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js",
     "static/js/2.9c727c94.chunk.js.map": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js.map",
     "index.html": "/hive-jamia.github.io/index.html",
-    "precache-manifest.50eae1f605ae3c12f899f80f36a62e8b.js": "/hive-jamia.github.io/precache-manifest.50eae1f605ae3c12f899f80f36a62e8b.js",
+    "precache-manifest.3a759de501a2089417e7e61eb2f79906.js": "/hive-jamia.github.io/precache-manifest.3a759de501a2089417e7e61eb2f79906.js",
     "service-worker.js": "/hive-jamia.github.io/service-worker.js",
     "static/css/2.ea6b7726.chunk.css.map": "/hive-jamia.github.io/static/css/2.ea6b7726.chunk.css.map",
-    "static/css/main.7a5f6cd8.chunk.css.map": "/hive-jamia.github.io/static/css/main.7a5f6cd8.chunk.css.map",
+    "static/css/main.5dc6cb87.chunk.css.map": "/hive-jamia.github.io/static/css/main.5dc6cb87.chunk.css.map",
     "static/js/2.9c727c94.chunk.js.LICENSE.txt": "/hive-jamia.github.io/static/js/2.9c727c94.chunk.js.LICENSE.txt",
     "static/media/index.css": "/hive-jamia.github.io/static/media/laptop.6313d8d0.png",
     "static/media/CSS.png": "/hive-jamia.github.io/static/media/CSS.ddd6668f.png",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.57d0b4cf.js",
     "static/css/2.ea6b7726.chunk.css",
     "static/js/2.9c727c94.chunk.js",
-    "static/css/main.7a5f6cd8.chunk.css",
+    "static/css/main.5dc6cb87.chunk.css",
     "static/js/main.8e7cc933.chunk.js"
   ]
 }
