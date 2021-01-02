@@ -7,11 +7,9 @@ const ProjectBody = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
-              <div className="heading">
-                <h3>Q blogging</h3>
-              </div>
               <img src="https://s27389.pcdn.co/wp-content/uploads/2019/08/four-unexpected-blockchain-use-cases.jpeg" alt="pro" />
               <div className="caption">
+                <h3>Q blogging</h3>
                 <p>
                 Web application which emphasis on the quality of blogging by implementing partial concepts of blockchain & Social networking sites{" "}
                 </p>
@@ -21,11 +19,9 @@ const ProjectBody = () => {
           </div>
           <div className=" col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
-              <div className="heading">
-                <h3>mlpack</h3>
-              </div>
               <img src="https://avatars3.githubusercontent.com/u/10216045?s=400&v=4" alt="pro" />
               <div className="caption">
+              <h3>mlpack</h3>
                 <p>
                 mlpack: a scalable C++ machine learning library{" "}
                 </p>
@@ -36,15 +32,13 @@ const ProjectBody = () => {
           </div>
           <div className=" col-xs-12 col-sm-6 col-lg-4 ">
             <div className="zoom">
-              <div className="heading">
-                <h3>Hall Allotment System</h3>
-              </div>
               <img src="https://dhanjivpandey.com/wp-content/uploads/2018/05/php.jpg" alt="pro" />
               <div className="caption">
+              <h3>Hall Allotment System</h3>
                 <p>
                 Hall Allotment System for my hostel : Indira Gandhi Hall{" "}
                 </p>
-                <br/>
+                <br/><br/>
                 <button><a href="https://github.com/sabasarwar/Hall-Allotment-System.git">Read more</a></button>
               </div>
             </div>
@@ -52,11 +46,9 @@ const ProjectBody = () => {
 
           <div className="col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
-              <div className="heading">
-                <h3>Stock Exchange Prediction</h3>
-              </div>
               <img src="https://miro.medium.com/max/3840/1*opzxrBna63YDbd8_pM5trw.png" alt="pro" />
               <div className="caption">
+              <h3>Stock Exchange Prediction</h3>
                 <p>
                 The model predicts whether the stock prices of a company are going to be Up or Down based on the historical performance of its stock.{" "}
                 </p>
@@ -66,11 +58,9 @@ const ProjectBody = () => {
           </div>
           <div className=" col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
-              <div className="heading">
-                <h3>Online Shopping Website</h3>
-              </div>
               <img src="https://www.monsterinsights.com/wp-content/uploads/2019/11/breathtaking-online-shopping-statistics-you-never-knew.png" alt="pro" />
               <div className="caption">
+              <h3>Online Shopping Website</h3>
                 <p>
                 Online shopping website demo developed using JSP and Microsoft Access{" "}
                 </p>
@@ -81,11 +71,9 @@ const ProjectBody = () => {
           </div>
           <div className=" col-xs-12 col-sm-6 col-lg-4">
             <div className="zoom">
-              <div className="heading">
-                <h3>Project Scribe</h3>
-              </div>
               <img src="https://miro.medium.com/max/3200/1*N6ugtpXET1pOLysSk_DWaQ.png" alt="pro" />
               <div className="caption">
+              <h3>Project Scribe</h3>
                 <p>
                   Developed using Typescript & Javascript{" "}
                 </p>
